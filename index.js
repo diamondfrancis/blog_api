@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/my-blog', {
+mongoose.connect('mongodb://localhost:27017/bblog', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });

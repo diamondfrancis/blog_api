@@ -3,181 +3,152 @@
 <head>
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<title>BBlog</title>
+<title>Blog</title>
 <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet'>
 <link
 rel="icon"
 type="image/svg+xml"
 href="/src/favourite-book.svg"
 />
-<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 </head>
 
 <!-- body start-->
 <body className='snippet-body'>
 
-<!-- nav start-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#" data-abc="true">BBLOG</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-    <div class="collapse navbar-collapse" id="navbarColor02">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active"> <a class="nav-link" href="#" data-abc="true">Blog</a></li>
-            <li class="nav-item"> <a class="nav-link" href="/views/login.ejs" data-abc="true">Login</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="/views/signup.ejs" data-abc="true">Sign up</a> </li>
-        </ul>
-        <!-- search bar-->
-        <form onsubmit="event.preventDefault()" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2" type="text" placeholder="Search"> <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button> </form>
-    </div>
-</nav>
-<!-- nav end-->
-
-<!-- #1 article start-->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 order-lg-0 order-2">
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <!-- article image-->
-                        <img class=""
-                            src="https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                            alt="">
-                    </div>
-                    <!-- #1 article content-->
-                    <div class="col-md-8 mb-4">
-                        <div class="d-flex align-items-center">
-                            <span class="bg-org">javascript</span>
-                            <span class="text-muted ps-4">March 27, 2021</span>
+    <!-- nav start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#" data-abc="true">BBLOG</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"> <a class="nav-link" href="#" data-abc="true">Blog</a></li>
+                <li class="nav-item"> <a class="nav-link" href="/views/login.ejs" data-abc="true">Login</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="/views/signup.ejs" data-abc="true">Sign up</a> </li>
+            </ul>
+            <!-- search bar-->
+            <form onsubmit="event.preventDefault()" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2" type="text" placeholder="Search"> <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button> </form>
+        </div>
+    </nav>
+    <!-- nav end-->
+    
+    <!-- #1 article start-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 order-lg-0 order-2">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <!-- article image-->
+                            <img class=""
+                                src="https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                                alt="">
                         </div>
-                        <div>
-                            <p class="text-capitalize fs5 my-3 fw-bolder">why node.js os the coolest kid on the backend
-                                development
-                                block!</a>
-                            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                numquam, quisquam ad, necessitatibus illum explicabo ut pariatur iusto asperiores dicta
-                                repudiandae delectus facere </a>
-                        </div>
-                    </div>
-                    <!-- #1 articles end-->
-
-                    <!-- #2 article start-->
-<div class="col-md-4 mb-4">
-    <!-- #2 article image-->
-    <img class=""
-    src="https://images.pexels.com/photos/2657669/pexels-photo-2657669.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-    alt="">
-</div>
-
-<!-- #2 article content-->
-<div class="col-md-8 mb-4">
-    <div class="d-flex align-items-center">
-        <span class="bg-blue">css</span>
-        <span class="text-muted ps-4">May 27, 2021</span>
-</div>
-
-<div>
-    <p class="text-capitalize fs5 my-3 fw-bolder">CSS Float: A Tutorial</a>
-        <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                              numquam, quisquam ad, necessitatibus illum explicabo ut pariatur iusto asperiores dicta
-                              repudiandae delectus facere </a>
+                        <!-- #1 article content-->
+                        <div class="col-md-8 mb-4">
+                            <div class="d-flex align-items-center">
+                                <span class="bg-org">javascript</span>
+                                <span class="text-muted ps-4">March 27, 2021</span>
+                            </div>
+                            <div>
+                                <p class="text-capitalize fs5 my-3 fw-bolder">why node.js os the coolest kid on the backend
+                                    development
+                                    block!</a>
+                                <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    numquam, quisquam ad, necessitatibus illum explicabo ut pariatur iusto asperiores dicta
+                                    repudiandae delectus facere </a>
                             </div>
                         </div>
-                    <!-- #2 article end-->
-
-                     <!-- #3 article start-->
-<div class="col-md-4 mb-4">
-    <img src="https://images.pexels.com/photos/5198239/pexels-photo-5198239.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-    alt="">
-</div>
-                    <!-- #3 article content-->
-                    <div class="col-md-8 mb-4">
-                        <div class="d-flex align-items-center">
-                            <span class="bg-vio">JQuery</span>
-                            <span class="text-muted ps-4">March 1, 2021</span>
-                        </div>
-                        
-                    <div>
-                        <p class="text-capitalize fs5 my-3 fw-bolder">ASK HN: Does Anybody Still Use JQuery</a>
-                            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                                  numquam, quisquam ad, necessitatibus illum explicabo ut pariatur iusto asperiores dicta
-                                                  repudiandae delectus facere </a>
+                        <!-- #1 articles end-->
+    
+                        <!-- #2 article start-->
+    <div class="col-md-4 mb-4">
+        <!-- #2 article image-->
+        <img class=""
+        src="https://images.pexels.com/photos/2657669/pexels-photo-2657669.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="">
+    </div>
+    
+    <!-- #2 article content-->
+    <div class="col-md-8 mb-4">
+        <div class="d-flex align-items-center">
+            <span class="bg-blue">css</span>
+            <span class="text-muted ps-4">May 27, 2021</span>
+    </div>
+    
+    <div>
+        <p class="text-capitalize fs5 my-3 fw-bolder">CSS Float: A Tutorial</a>
+            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                  numquam, quisquam ad, necessitatibus illum explicabo ut pariatur iusto asperiores dicta
+                                  repudiandae delectus facere </a>
+                                </div>
+                            </div>
+                        <!-- #2 article end-->
+    
+                         <!-- #3 article start-->
+    <div class="col-md-4 mb-4">
+        <img src="https://images.pexels.com/photos/5198239/pexels-photo-5198239.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="">
+    </div>
+                        <!-- #3 article content-->
+                        <div class="col-md-8 mb-4">
+                            <div class="d-flex align-items-center">
+                                <span class="bg-vio">JQuery</span>
+                                <span class="text-muted ps-4">March 1, 2021</span>
+                            </div>
+                            
+                        <div>
+                            <p class="text-capitalize fs5 my-3 fw-bolder">ASK HN: Does Anybody Still Use JQuery</a>
+                                <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                      numquam, quisquam ad, necessitatibus illum explicabo ut pariatur iusto asperiores dicta
+                                                      repudiandae delectus facere </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
- <!-- #3 article end-->
-
-  <!-- #4 categories start-->
-            <div class="col-lg-4 order-lg-1 mb-3">
-                <span class="fs-4 mb-2 fw-bold text-capitalize">catagories</span>
-                <div class="d-flex flex-column">
-                    <div class="d-flex align-items-center justify-content-between border-bottom py-2">
-                        <span>Web Design</span>
-                        <span class="bg-green">340</span>
+     <!-- #3 article end-->
+    
+      <!-- #4 categories start-->
+                <div class="col-lg-4 order-lg-1 mb-3">
+                    <span class="fs-4 mb-2 fw-bold text-capitalize">catagories</span>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center justify-content-between border-bottom py-2">
+                            <span>Web Design</span>
+                            <span class="bg-green">340</span>
+                        </div>
+    
+                        <div class="d-flex align-items-center justify-content-between border-bottom py-2">
+                            <span>javascript</span>
+                            <span class="bg-orgn">74</span>
+                        </div>
+    
+                        <div class="d-flex align-items-center justify-content-between border-bottom py-2">
+                            <span>JQuery</span>
+                            <span class="bg-blu">41</span>
+                        </div>
+    
+                        <div class="d-flex align-items-center justify-content-between border-bottom py-2">
+                            <span>CSS</span>
+                            <span class="bg-violet">35</span>
+                        </div>
                     </div>
-
-                    <div class="d-flex align-items-center justify-content-between border-bottom py-2">
-                        <span>javascript</span>
-                        <span class="bg-orgn">74</span>
+     <!-- additional tags-->
+                    <div class="d-flex flex-wrap  my-5">
+                        <a class="items" data-bs-toggle="tooltip" data-bs-placement="top" title="Chorme" href="#">Chrorme</a>
+                        <a class="items" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS" href="#">CSS</a>
+                        <a class="items" data-bs-toggle="tooltip" data-bs-placement="top" title="Tutorial"
+                            href="#">Tutorial</a>
+                        <a class="items" data-bs-toggle="tooltip" data-bs-placement="top" title="Backend"
+                            href="#">Backend</a>
+                        <a class="items" data-bs-toggle="tooltip" data-bs-placement="left" title="JQuery"
+                            href="#">JQuery</a>
+                        <a class="items" data-bs-toggle="tooltip" data-bs-placement="top" title="Design" href="#">Design</a>
+                        <a class="items" data-bs-toggle="tooltip" data-bs-placement="right" title="Development"
+                            href="#">Development</a>
+                        <a class="items" data-bs-toggle="tooltip" data-bs-placement="bottom" title="javascript"
+                            href="#">Javascript</a>
+                        <a class="items" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Website"
+                            href="#">Website</a>
+    
                     </div>
-
-                    <div class="d-flex align-items-center justify-content-between border-bottom py-2">
-                        <span>JQuery</span>
-                        <span class="bg-blu">41</span>
-                    </div>
-
-                    <div class="d-flex align-items-center justify-content-between border-bottom py-2">
-                        <span>CSS</span>
-                        <span class="bg-violet">35</span>
-                    </div>
-                </div>
- <!-- additional tags-->
-                <div class="d-flex flex-wrap  my-5">
-                    <a class="items" data-bs-toggle="tooltip" data-bs-placement="top" title="Chorme" href="#">Chrorme</a>
-                    <a class="items" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS" href="#">CSS</a>
-                    <a class="items" data-bs-toggle="tooltip" data-bs-placement="top" title="Tutorial"
-                        href="#">Tutorial</a>
-                    <a class="items" data-bs-toggle="tooltip" data-bs-placement="top" title="Backend"
-                        href="#">Backend</a>
-                    <a class="items" data-bs-toggle="tooltip" data-bs-placement="left" title="JQuery"
-                        href="#">JQuery</a>
-                    <a class="items" data-bs-toggle="tooltip" data-bs-placement="top" title="Design" href="#">Design</a>
-                    <a class="items" data-bs-toggle="tooltip" data-bs-placement="right" title="Development"
-                        href="#">Development</a>
-                    <a class="items" data-bs-toggle="tooltip" data-bs-placement="bottom" title="javascript"
-                        href="#">Javascript</a>
-                    <a class="items" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Website"
-                        href="#">Website</a>
-
                 </div>
             </div>
         </div>
-    </div>
-
- <!-- script start-->
-                                <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'></script>
-                                <script type='text/javascript' src='#'></script>
-                                <script type='text/javascript' src='#'></script>
-                                <script type='text/javascript' src='#'></script>
-                                <script type='text/javascript'>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-})
-</script>
-
-<script type='text/javascript'>
-var myLink = document.querySelector('a[href="#"]');
-myLink.addEventListener('click', function(e) {
-    e.preventDefault();
-    });</script>
-                                
-<script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js'></script>
-<script type='text/javascript' src='#'></script>
-<script type='text/javascript' src='#'></script>
-<script type='text/javascript' src='#'></script>
-<script type='text/javascript'>hello</script>
-<script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
-
-myLink.addEventListener('click', function(e) {
-    e.preventDefault();
-    });</script>
-    </body>
-</html>
+        </body>
+        </html>
